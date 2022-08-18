@@ -1,0 +1,9 @@
+:root {
+	--maincolor: rgb(33, 33, 33);
+	--secondcolor: rgb(117, 117, 117);
+	--lightcolor: rgb(255, 255, 255);
+}
+
+body {
+	color: var(--maincolor);
+}
