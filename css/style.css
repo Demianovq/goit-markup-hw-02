@@ -76,6 +76,10 @@
 	color: var(--light-color);
 }
 
+.hero-btn .rules-list {
+	list-style: none;
+}
+
 .hero-btn {
 	font-weight: 700;
 	font-size: 16px;
@@ -86,10 +90,12 @@
 	letter-spacing: 0.06em;
 	color: var(--light-color);
 	background-color: var(--accent-color);
+	cursor: pointer;
 }
 
-.rules-list {
-	list-style: none;
+.hero-btn:hover,
+.hero-btn:focus {
+	background-color: #188ce8;
 }
 
 .rules-title {
