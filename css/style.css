@@ -5,7 +5,7 @@
 	--accent-color: #2196f3;
 }
 
-.page {
+body {
 	font-family: "Roboto";
 	font-size: 14px;
 	color: var(--second-color);
@@ -71,7 +71,11 @@
 	color: var(--light-color);
 }
 
-.hero-btn .rules-list {
+.hero-btn {
+	list-style: none;
+}
+
+.rules-list {
 	list-style: none;
 }
 
@@ -112,6 +116,7 @@
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--main-color);
+	font-size: 14px;
 }
 
 .title {
@@ -182,6 +187,7 @@ address {
 	background-color: #f5f4fa;
 	cursor: pointer;
 	border: none;
+	font-family: inherit;
 }
 
 .nav-projects-btn:hover,
